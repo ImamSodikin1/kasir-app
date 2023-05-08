@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:elevation="10dp"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gambar1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_1"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cowsoran_kasiir"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/blacksemu"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13sp"
+        android:textColor="@color/blacksemu"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/membantu_proses_jualan_anda"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13sp"
+        android:textColor="@color/blacksemu"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/menjadi_lebih_mudah"/>
+    
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/bg_button"/>
+    <Button
+        android:id="@+id/btn_regis1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/registrasi"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/bg_button"/>
+
+
+
+
+
+</LinearLayout>

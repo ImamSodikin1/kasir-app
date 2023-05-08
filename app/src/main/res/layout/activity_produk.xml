@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProdukActivity">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_MenuProduk"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_menu"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            app:iconifiedByDefault="false"
+            app:searchIcon="@drawable/ic_search"
+            android:autofillHints="name"
+            app:closeIcon="@drawable/ic_close"
+            android:inputType="text"
+            android:background="@drawable/bg_searcview"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/blacksemu"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.SearchView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvProdukProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Daftar Produk"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvPindaiBarcode"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Pindai Barcode"
+            android:layout_marginStart="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blacksemu"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_5"/>
+
+</LinearLayout>

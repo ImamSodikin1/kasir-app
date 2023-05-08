@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">KASIR COWSORAN</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email_username">Email/Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">LOGIN</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="cowsoran_kasiir">COWSORAN KASIIR</string>
+    <string name="membantu_proses_jualan_anda">Membantu Proses Jualan Anda</string>
+    <string name="menjadi_lebih_mudah">Menjadi Lebih Mudah</string>
+    <string name="registrasi">REGISTRASI</string>
+    <string name="wellbord_onbord">Wellbord Onbord!</string>
+    <string name="let_s_help_you_meet_up_your_tasks">Let’s help you meet up your tasks.</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="dasbor">Dasbor</string>
+    <string name="produk">Produk</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
